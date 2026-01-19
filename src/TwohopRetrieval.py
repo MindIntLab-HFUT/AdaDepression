@@ -289,8 +289,8 @@ def parse_args():
     parser.add_argument('--seeds_path', type=str, default="", help="seed posts path")
     parser.add_argument('--MODEL_ST_ID', type=str, default="", help="model path")
     parser.add_argument('--dthr', type=float, default=47.86, help="dthr")
-    parser.add_argument('--year', type=str, default="2019", help="eRisk xx")  # /data/yangyangxu/dataset/Twitter-Mental-Disorder-Dataset/posts.json
-    parser.add_argument('--output_path', type=str, default="", help="output path")  # /data/yangyangxu/dataset/Twitter-Mental-Disorder-Dataset/one_hop_retrieval_23.93.json
+    parser.add_argument('--year', type=str, default="2019", help="eRisk xx")  
+    parser.add_argument('--output_path', type=str, default="", help="output path")  
     args = parser.parse_args()
     return args
 
