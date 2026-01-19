@@ -1,0 +1,23 @@
+items_queries = [
+    'how sad the user feels', 
+    'how discouraged the user is about future', 
+    'how much the user feels like a failure', 
+    'how much the user loses pleasure from things', 
+    'how often the user feels guilty', 
+    'how much the user feels punished',               
+    'how much the user feels disappointed about him/herself', 
+    'how often the user criticizes or blames him/herself', 
+    'how much the user thinks about killing him/herself', 
+    'how often the user cries', 
+    'how much the user feels restless or agitated',               
+    'how much the user loses interest in things', 
+    'how difficult the user to make decisions', 
+    'how much the user feels worthless', 
+    'how much the user loses energy', 
+    'how much the user experienced changes in sleeping', 
+    'how much the user feels irritable', 
+    'how much the user experienced changes in appetite', 
+    'how difficult the user to concentrate', 
+    'how much the user feels tired or fatigued',               
+    'how much the user loses interest in sex'
+]
