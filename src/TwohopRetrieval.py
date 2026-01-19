@@ -312,17 +312,17 @@ def get_docss_1(posts_dir):
 
 
 def get_docss_2(posts_dir):
-        all_posts = []
-        for xml in tqdm(glob.glob(os.path.join(posts_dir, '*.xml'))):
-            user_posts = []
-            doc = minidom.parse(xml)
-            posts = doc.getElementsByTagName('TEXT') 
-            for post in posts:
-                post = clean_text(post.firstChild.data)
-                if post != "":
-                    user_posts.append(post)
-            all_posts.append(user_posts)
-        return all_posts
+    all_posts = []
+    for xml in tqdm(glob.glob(os.path.join(posts_dir, '*.xml'))):
+        user_posts = []
+        doc = minidom.parse(xml)
+        posts = doc.getElementsByTagName('TEXT') 
+        for post in posts:
+            post = clean_text(post.firstChild.data)
+            if post != "":
+                user_posts.append(post)
+        all_posts.append(user_posts)
+    return all_posts
 
 
 if __name__ == "__main__":
