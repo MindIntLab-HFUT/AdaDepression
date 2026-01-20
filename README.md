@@ -8,24 +8,31 @@ As illustrated in the figure, AdaDepression consists of the following three modu
 
 #### 1. Clone this project locally
 ```bash
-git clone https://github.com/MindIntLab-HFUT/MultiAgentESC.git
+git clone https://github.com/MindIntLab-HFUT/AdaDepression.git
 ```
 
 #### 2. Navigate to the directory
 ```bash
-cd MultiAgentESC
+cd AdaDepression/src
 ```
 
-#### 3. Set up the environment
+#### 3. Two-Hop Retrieval
+
 ```bash
-pip install -r requirements.txt
+python TwohopRetrieval.py
 ```
 
-#### 4. Replace the relevant path
-
-Replace paths in parse_args() in main.py
-
-#### 5. Run the Python file run.py
+#### 4. Train the model
 ```bash
-python main.py
+python train.py
+```
+
+#### 4. Test
+```bash
+python test.py
+```
+
+#### 5. Calculate the metrics
+```bash
+python cal_metrics.py
 ```
